@@ -2,9 +2,13 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7385"
-	"mapversion" "86"
+	"mapversion" "87"
 	"formatversion" "100"
 	"prefab" "0"
+	autosave
+	{
+		"originalname" "D:/Programe/GitHub Reps/CS-GO Maps/aim_cika/aim_museum3.vmf"
+	}
 }
 visgroups
 {
@@ -26,7 +30,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "86"
+	"mapversion" "87"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -16059,7 +16063,7 @@ entity
 {
 	"id" "238220"
 	"classname" "prop_static"
-	"angles" "0 0 0"
+	"angles" "0 270 0"
 	"disableflashlight" "0"
 	"disableselfshadowing" "0"
 	"disableshadowdepth" "0"
@@ -16082,7 +16086,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-13163 13909 411"
+	"origin" "-13280 13744 138"
 	editor
 	{
 		"color" "255 255 0"
@@ -17220,7 +17224,7 @@ entity
 {
 	"id" "10140"
 	"classname" "prop_detail"
-	"angles" "87.7603 270 -180"
+	"angles" "89.7603 270 180"
 	"model" "models/inventory_items/collectible_pin_guardianelite.mdl"
 	"skin" "0"
 	"origin" "-13312 13824 124"
@@ -18862,8 +18866,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-13939 14145.2 286.868]"
-		"look" "[-13938 14145.1 286.5]"
+		"position" "[-13186.3 14353.3 227.684]"
+		"look" "[-13187.2 14353.4 227.2]"
 	}
 }
 cordons

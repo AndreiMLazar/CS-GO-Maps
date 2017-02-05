@@ -2,9 +2,13 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7385"
-	"mapversion" "86"
+	"mapversion" "88"
 	"formatversion" "100"
 	"prefab" "0"
+	autosave
+	{
+		"originalname" "D:/Programe/GitHub Reps/CS-GO Maps/aim_cika/aim_museum3.vmf"
+	}
 }
 visgroups
 {
@@ -26,7 +30,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "86"
+	"mapversion" "88"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1958,6 +1962,82 @@ world
 	}
 	solid
 	{
+		"id" "244948"
+		side
+		{
+			"id" "19747"
+			"plane" "(-13775 14104 128) (-13774 14104 128) (-13774 14056 128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.00390625"
+			"vaxis" "[0 -1 0 21.3359] 0.1875"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19748"
+			"plane" "(-13775 14056 88) (-13774 14056 88) (-13774 14104 88)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.00390625"
+			"vaxis" "[0 -1 0 21.3359] 0.1875"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19749"
+			"plane" "(-13775 14104 128) (-13775 14056 128) (-13775 14056 88)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -21.3359] 0.1875"
+			"vaxis" "[0 0 -1 51.2002] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19750"
+			"plane" "(-13774 14104 88) (-13774 14056 88) (-13774 14056 128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -21.3359] 0.1875"
+			"vaxis" "[0 0 -1 51.2002] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19751"
+			"plane" "(-13774 14104 128) (-13775 14104 128) (-13775 14104 88)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.00390625"
+			"vaxis" "[0 0 -1 51.2002] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19752"
+			"plane" "(-13774 14056 88) (-13775 14056 88) (-13775 14056 128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.00390625"
+			"vaxis" "[0 0 -1 51.2002] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 223 204"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
 		"id" "242747"
 		side
 		{
@@ -2321,7 +2401,7 @@ world
 		"id" "243477"
 		side
 		{
-			"id" "18649"
+			"id" "19788"
 			"plane" "(-13774 14024 151) (-13778 14024 151) (-13778 14136 151)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 -12.004] 0.25"
@@ -2332,7 +2412,7 @@ world
 		}
 		side
 		{
-			"id" "18650"
+			"id" "19787"
 			"plane" "(-13774 14136 64) (-13778 14136 64) (-13778 14024 64)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 -12.004] 0.25"
@@ -2343,7 +2423,7 @@ world
 		}
 		side
 		{
-			"id" "18651"
+			"id" "19786"
 			"plane" "(-13774 14024 64) (-13778 14024 64) (-13778 14024 151)"
 			"material" "CONCRETE/HR_C/HR_CONC_F"
 			"uaxis" "[-1 0 0 -8] 0.25"
@@ -2354,7 +2434,7 @@ world
 		}
 		side
 		{
-			"id" "18652"
+			"id" "19785"
 			"plane" "(-13778 14136 64) (-13774 14136 64) (-13774 14136 151)"
 			"material" "CONCRETE/HR_C/HR_CONC_F"
 			"uaxis" "[-1 0 0 188] 0.25"
@@ -2365,7 +2445,7 @@ world
 		}
 		side
 		{
-			"id" "18653"
+			"id" "19784"
 			"plane" "(-13778 14024 64) (-13778 14136 64) (-13778 14136 151)"
 			"material" "CONCRETE/HR_C/HR_CONC_F"
 			"uaxis" "[0 1 0 -12.004] 0.25"
@@ -2376,10 +2456,10 @@ world
 		}
 		side
 		{
-			"id" "18654"
+			"id" "19783"
 			"plane" "(-13774 14136 64) (-13774 14024 64) (-13774 14024 151)"
-			"material" "CONCRETE/HR_C/HR_CONC_F"
-			"uaxis" "[0 1 0 188] 0.25"
+			"material" "PLASTER/PLASTERCEILING_INT_01"
+			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -16059,7 +16139,7 @@ entity
 {
 	"id" "238220"
 	"classname" "prop_static"
-	"angles" "0 0 0"
+	"angles" "0 270 0"
 	"disableflashlight" "0"
 	"disableselfshadowing" "0"
 	"disableshadowdepth" "0"
@@ -16082,7 +16162,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-13163 13909 411"
+	"origin" "-13280 13744 128"
 	editor
 	{
 		"color" "255 255 0"
@@ -16118,7 +16198,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-13276 14416 134"
+	"origin" "-13280 14416 128"
 	editor
 	{
 		"color" "255 255 0"
@@ -17220,7 +17300,7 @@ entity
 {
 	"id" "10140"
 	"classname" "prop_detail"
-	"angles" "87.7603 270 -180"
+	"angles" "89.7603 270 180"
 	"model" "models/inventory_items/collectible_pin_guardianelite.mdl"
 	"skin" "0"
 	"origin" "-13312 13824 124"
@@ -18862,8 +18942,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-13939 14145.2 286.868]"
-		"look" "[-13938 14145.1 286.5]"
+		"position" "[-13726.1 14077.4 120.141]"
+		"look" "[-13727.2 14077.4 120.063]"
 	}
 }
 cordons
