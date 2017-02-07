@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7385"
-	"mapversion" "129"
+	"mapversion" "134"
 	"formatversion" "100"
 	"prefab" "0"
 	autosave
@@ -36,7 +36,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "129"
+	"mapversion" "134"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -13325,17 +13325,6 @@ world
 	}
 	group
 	{
-		"id" "244530"
-		editor
-		{
-			"color" "117 210 0"
-			"groupid" "244529"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
 		"id" "247579"
 		editor
 		{
@@ -13372,17 +13361,6 @@ world
 		{
 			"color" "117 210 0"
 			"groupid" "248268"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "248273"
-		editor
-		{
-			"color" "117 210 0"
-			"groupid" "248272"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -13616,6 +13594,28 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "252977"
+	"classname" "light_environment"
+	"_ambient" "202 216 219 200"
+	"_ambientHDR" "-1 -1 -1 1"
+	"_AmbientScaleHDR" "1"
+	"_light" "247 232 202 400"
+	"_lightHDR" "-1 -1 -1 -1"
+	"_lightscaleHDR" "1.5"
+	"angles" "-76 270 0"
+	"pitch" "-76"
+	"SunSpreadAngle" "1.2"
+	"origin" "-13312 14120 704"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13268]"
 	}
 }
 entity
@@ -14237,47 +14237,34 @@ entity
 entity
 {
 	"id" "248781"
-	"classname" "prop_dynamic"
+	"classname" "prop_static"
 	"angles" "0 270 0"
-	"body" "0"
-	"DisableBoneFollowers" "0"
 	"disableflashlight" "0"
-	"disablereceiveshadows" "0"
+	"disableselfshadowing" "0"
 	"disableshadowdepth" "0"
 	"disableshadows" "0"
+	"disablevertexlighting" "0"
 	"disableX360" "0"
 	"drawinfastreflection" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"HoldAnimation" "0"
-	"is_autoaim_target" "0"
-	"MaxAnimTime" "10"
+	"ignorenormals" "0"
 	"maxcpulevel" "0"
 	"maxgpulevel" "0"
-	"MinAnimTime" "5"
 	"mincpulevel" "0"
 	"mingpulevel" "0"
 	"model" "models/props/cs_office/offpaintinga.mdl"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
+	"screenspacefade" "0"
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
-	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "-12915 14384 104"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 1000]"
@@ -14286,47 +14273,34 @@ entity
 entity
 {
 	"id" "249001"
-	"classname" "prop_dynamic"
+	"classname" "prop_static"
 	"angles" "0 270 0"
-	"body" "0"
-	"DisableBoneFollowers" "0"
 	"disableflashlight" "0"
-	"disablereceiveshadows" "0"
+	"disableselfshadowing" "0"
 	"disableshadowdepth" "0"
 	"disableshadows" "0"
+	"disablevertexlighting" "0"
 	"disableX360" "0"
 	"drawinfastreflection" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"HoldAnimation" "0"
-	"is_autoaim_target" "0"
-	"MaxAnimTime" "10"
+	"ignorenormals" "0"
 	"maxcpulevel" "0"
 	"maxgpulevel" "0"
-	"MinAnimTime" "5"
 	"mincpulevel" "0"
 	"mingpulevel" "0"
 	"model" "models/props/cs_office/offpaintingf.mdl"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
+	"screenspacefade" "0"
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
-	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "-12916 14297 104"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 1000]"
@@ -14335,47 +14309,34 @@ entity
 entity
 {
 	"id" "249028"
-	"classname" "prop_dynamic"
+	"classname" "prop_static"
 	"angles" "0 270 0"
-	"body" "0"
-	"DisableBoneFollowers" "0"
 	"disableflashlight" "0"
-	"disablereceiveshadows" "0"
+	"disableselfshadowing" "0"
 	"disableshadowdepth" "0"
 	"disableshadows" "0"
+	"disablevertexlighting" "0"
 	"disableX360" "0"
 	"drawinfastreflection" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"HoldAnimation" "0"
-	"is_autoaim_target" "0"
-	"MaxAnimTime" "10"
+	"ignorenormals" "0"
 	"maxcpulevel" "0"
 	"maxgpulevel" "0"
-	"MinAnimTime" "5"
 	"mincpulevel" "0"
 	"mingpulevel" "0"
 	"model" "models/props/cs_office/offpaintingf.mdl"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
+	"screenspacefade" "0"
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
-	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "-13703.6 13778.5 104"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 1000]"
@@ -14384,47 +14345,34 @@ entity
 entity
 {
 	"id" "249032"
-	"classname" "prop_dynamic"
+	"classname" "prop_static"
 	"angles" "0 270 0"
-	"body" "0"
-	"DisableBoneFollowers" "0"
 	"disableflashlight" "0"
-	"disablereceiveshadows" "0"
+	"disableselfshadowing" "0"
 	"disableshadowdepth" "0"
 	"disableshadows" "0"
+	"disablevertexlighting" "0"
 	"disableX360" "0"
 	"drawinfastreflection" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"HoldAnimation" "0"
-	"is_autoaim_target" "0"
-	"MaxAnimTime" "10"
+	"ignorenormals" "0"
 	"maxcpulevel" "0"
 	"maxgpulevel" "0"
-	"MinAnimTime" "5"
 	"mincpulevel" "0"
 	"mingpulevel" "0"
 	"model" "models/props/cs_office/offpaintinga.mdl"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
+	"screenspacefade" "0"
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
-	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "-13702.3 13865.9 104"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 1000]"
@@ -14433,47 +14381,34 @@ entity
 entity
 {
 	"id" "249095"
-	"classname" "prop_dynamic"
+	"classname" "prop_static"
 	"angles" "0 270 0"
-	"body" "0"
-	"DisableBoneFollowers" "0"
 	"disableflashlight" "0"
-	"disablereceiveshadows" "0"
+	"disableselfshadowing" "0"
 	"disableshadowdepth" "0"
 	"disableshadows" "0"
+	"disablevertexlighting" "0"
 	"disableX360" "0"
 	"drawinfastreflection" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"HoldAnimation" "0"
-	"is_autoaim_target" "0"
-	"MaxAnimTime" "10"
+	"ignorenormals" "0"
 	"maxcpulevel" "0"
 	"maxgpulevel" "0"
-	"MinAnimTime" "5"
 	"mincpulevel" "0"
 	"mingpulevel" "0"
 	"model" "models/props/cs_office/offpaintingd.mdl"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
+	"screenspacefade" "0"
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
-	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "-13773.6 14080 104"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 1000]"
@@ -14482,47 +14417,34 @@ entity
 entity
 {
 	"id" "249118"
-	"classname" "prop_dynamic"
+	"classname" "prop_static"
 	"angles" "0 90 0"
-	"body" "0"
-	"DisableBoneFollowers" "0"
 	"disableflashlight" "0"
-	"disablereceiveshadows" "0"
+	"disableselfshadowing" "0"
 	"disableshadowdepth" "0"
 	"disableshadows" "0"
+	"disablevertexlighting" "0"
 	"disableX360" "0"
 	"drawinfastreflection" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"HoldAnimation" "0"
-	"is_autoaim_target" "0"
-	"MaxAnimTime" "10"
+	"ignorenormals" "0"
 	"maxcpulevel" "0"
 	"maxgpulevel" "0"
-	"MinAnimTime" "5"
 	"mincpulevel" "0"
 	"mingpulevel" "0"
 	"model" "models/props/cs_office/offpaintingo.mdl"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
+	"screenspacefade" "0"
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
-	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "-12920 14294.1 104"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 1000]"
@@ -14531,47 +14453,34 @@ entity
 entity
 {
 	"id" "249122"
-	"classname" "prop_dynamic"
+	"classname" "prop_static"
 	"angles" "0 180 0"
-	"body" "0"
-	"DisableBoneFollowers" "0"
 	"disableflashlight" "0"
-	"disablereceiveshadows" "0"
+	"disableselfshadowing" "0"
 	"disableshadowdepth" "0"
 	"disableshadows" "0"
+	"disablevertexlighting" "0"
 	"disableX360" "0"
 	"drawinfastreflection" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"HoldAnimation" "0"
-	"is_autoaim_target" "0"
-	"MaxAnimTime" "10"
+	"ignorenormals" "0"
 	"maxcpulevel" "0"
 	"maxgpulevel" "0"
-	"MinAnimTime" "5"
 	"mincpulevel" "0"
 	"mingpulevel" "0"
 	"model" "models/props/de_inferno/hr_i/inferno_paintings/inferno_paintings_02.mdl"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
+	"screenspacefade" "0"
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
-	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "-12920 14381.5 108"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 1000]"
@@ -14580,47 +14489,34 @@ entity
 entity
 {
 	"id" "249126"
-	"classname" "prop_dynamic"
+	"classname" "prop_static"
 	"angles" "0 90 0"
-	"body" "0"
-	"DisableBoneFollowers" "0"
 	"disableflashlight" "0"
-	"disablereceiveshadows" "0"
+	"disableselfshadowing" "0"
 	"disableshadowdepth" "0"
 	"disableshadows" "0"
+	"disablevertexlighting" "0"
 	"disableX360" "0"
 	"drawinfastreflection" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"HoldAnimation" "0"
-	"is_autoaim_target" "0"
-	"MaxAnimTime" "10"
+	"ignorenormals" "0"
 	"maxcpulevel" "0"
 	"maxgpulevel" "0"
-	"MinAnimTime" "5"
 	"mincpulevel" "0"
 	"mingpulevel" "0"
 	"model" "models/props/cs_office/offpaintingd.mdl"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
+	"screenspacefade" "0"
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
-	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "-12850 14080 104"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 1000]"
@@ -14678,47 +14574,34 @@ entity
 entity
 {
 	"id" "249476"
-	"classname" "prop_dynamic"
+	"classname" "prop_static"
 	"angles" "0 270 0"
-	"body" "0"
-	"DisableBoneFollowers" "0"
 	"disableflashlight" "0"
-	"disablereceiveshadows" "0"
+	"disableselfshadowing" "0"
 	"disableshadowdepth" "0"
 	"disableshadows" "0"
+	"disablevertexlighting" "0"
 	"disableX360" "0"
 	"drawinfastreflection" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"HoldAnimation" "0"
-	"is_autoaim_target" "0"
-	"MaxAnimTime" "10"
+	"ignorenormals" "0"
 	"maxcpulevel" "0"
 	"maxgpulevel" "0"
-	"MinAnimTime" "5"
 	"mincpulevel" "0"
 	"mingpulevel" "0"
 	"model" "models/props/cs_office/offpaintinge.mdl"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
+	"screenspacefade" "0"
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
-	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "-13696 14296 108"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 1000]"
@@ -14727,47 +14610,34 @@ entity
 entity
 {
 	"id" "249667"
-	"classname" "prop_dynamic"
+	"classname" "prop_static"
 	"angles" "0 270 0"
-	"body" "0"
-	"DisableBoneFollowers" "0"
 	"disableflashlight" "0"
-	"disablereceiveshadows" "0"
+	"disableselfshadowing" "0"
 	"disableshadowdepth" "0"
 	"disableshadows" "0"
+	"disablevertexlighting" "0"
 	"disableX360" "0"
 	"drawinfastreflection" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"HoldAnimation" "0"
-	"is_autoaim_target" "0"
-	"MaxAnimTime" "10"
+	"ignorenormals" "0"
 	"maxcpulevel" "0"
 	"maxgpulevel" "0"
-	"MinAnimTime" "5"
 	"mincpulevel" "0"
 	"mingpulevel" "0"
 	"model" "models/props/cs_office/offpaintingk.mdl"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
+	"screenspacefade" "0"
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
-	"spawnflags" "0"
-	"StartDisabled" "0"
 	"origin" "-12846 14080 104"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 1000]"
@@ -17242,10 +17112,10 @@ entity
 		side
 		{
 			"id" "20897"
-			"plane" "(-13778 14028 152) (-13778 14132 152) (-13774 14132 152)"
+			"plane" "(-13778 14024 152) (-13778 14136 152) (-13774 14136 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 -16] 0.0625"
-			"vaxis" "[-1 0 0 -2.90918] 1.03125"
+			"vaxis" "[-1 0 0 -3.87888] 1.03125"
 			"rotation" "90"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -17253,10 +17123,10 @@ entity
 		side
 		{
 			"id" "20896"
-			"plane" "(-13778 14132 64) (-13778 14028 64) (-13774 14028 64)"
+			"plane" "(-13778 14136 64) (-13778 14024 64) (-13774 14024 64)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 -16] 0.0625"
-			"vaxis" "[-1 0 0 -2.90918] 1.03125"
+			"vaxis" "[-1 0 0 -3.87888] 1.03125"
 			"rotation" "90"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -17264,7 +17134,7 @@ entity
 		side
 		{
 			"id" "20895"
-			"plane" "(-13774 14132 64) (-13774 14028 64) (-13774 14028 152)"
+			"plane" "(-13774 14136 64) (-13774 14024 64) (-13774 14024 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 -16] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17275,7 +17145,7 @@ entity
 		side
 		{
 			"id" "20894"
-			"plane" "(-13778 14028 64) (-13778 14132 64) (-13778 14132 152)"
+			"plane" "(-13778 14024 64) (-13778 14136 64) (-13778 14136 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 -16] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17286,9 +17156,9 @@ entity
 		side
 		{
 			"id" "20893"
-			"plane" "(-13778 14132 64) (-13774 14132 64) (-13774 14132 152)"
+			"plane" "(-13778 14136 64) (-13774 14136 64) (-13774 14136 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
-			"uaxis" "[-1 0 0 -2.90918] 1.03125"
+			"uaxis" "[-1 0 0 -3.87888] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -17297,9 +17167,9 @@ entity
 		side
 		{
 			"id" "20892"
-			"plane" "(-13774 14028 64) (-13778 14028 64) (-13778 14028 152)"
+			"plane" "(-13774 14024 64) (-13778 14024 64) (-13778 14024 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
-			"uaxis" "[-1 0 0 -2.90918] 1.03125"
+			"uaxis" "[-1 0 0 -3.87888] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -17358,7 +17228,7 @@ entity
 		side
 		{
 			"id" "20909"
-			"plane" "(-12850 14028 152) (-12850 14132 152) (-12846 14132 152)"
+			"plane" "(-12850 14024 152) (-12850 14136 152) (-12846 14136 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 -16] 0.0625"
 			"vaxis" "[-1 0 0 0.969604] 1.03125"
@@ -17369,7 +17239,7 @@ entity
 		side
 		{
 			"id" "20908"
-			"plane" "(-12850 14132 64) (-12850 14028 64) (-12846 14028 64)"
+			"plane" "(-12850 14136 64) (-12850 14024 64) (-12846 14024 64)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 -16] 0.0625"
 			"vaxis" "[-1 0 0 0.969604] 1.03125"
@@ -17380,7 +17250,7 @@ entity
 		side
 		{
 			"id" "20907"
-			"plane" "(-12846 14132 64) (-12846 14028 64) (-12846 14028 152)"
+			"plane" "(-12846 14136 64) (-12846 14024 64) (-12846 14024 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 -16] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17391,7 +17261,7 @@ entity
 		side
 		{
 			"id" "20906"
-			"plane" "(-12850 14028 64) (-12850 14132 64) (-12850 14132 152)"
+			"plane" "(-12850 14024 64) (-12850 14136 64) (-12850 14136 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 -16] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17402,7 +17272,7 @@ entity
 		side
 		{
 			"id" "20905"
-			"plane" "(-12850 14132 64) (-12846 14132 64) (-12846 14132 152)"
+			"plane" "(-12850 14136 64) (-12846 14136 64) (-12846 14136 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 0.969604] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17413,7 +17283,7 @@ entity
 		side
 		{
 			"id" "20904"
-			"plane" "(-12846 14028 64) (-12850 14028 64) (-12850 14028 152)"
+			"plane" "(-12846 14024 64) (-12850 14024 64) (-12850 14024 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 0.969604] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17474,7 +17344,7 @@ entity
 		side
 		{
 			"id" "20921"
-			"plane" "(-12920 14258 152) (-12920 14418 152) (-12916 14418 152)"
+			"plane" "(-12920 14254 152) (-12920 14422 152) (-12916 14422 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 -48] 0.0625"
 			"vaxis" "[-1 0 0 61.0908] 1.03125"
@@ -17485,7 +17355,7 @@ entity
 		side
 		{
 			"id" "20920"
-			"plane" "(-12920 14418 64) (-12920 14258 64) (-12916 14258 64)"
+			"plane" "(-12920 14422 64) (-12920 14254 64) (-12916 14254 64)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 -48] 0.0625"
 			"vaxis" "[-1 0 0 61.0908] 1.03125"
@@ -17496,7 +17366,7 @@ entity
 		side
 		{
 			"id" "20919"
-			"plane" "(-12916 14418 64) (-12916 14258 64) (-12916 14258 152)"
+			"plane" "(-12916 14422 64) (-12916 14254 64) (-12916 14254 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 -48] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17507,7 +17377,7 @@ entity
 		side
 		{
 			"id" "20918"
-			"plane" "(-12920 14258 64) (-12920 14418 64) (-12920 14418 152)"
+			"plane" "(-12920 14254 64) (-12920 14422 64) (-12920 14422 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 -48] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17518,7 +17388,7 @@ entity
 		side
 		{
 			"id" "20917"
-			"plane" "(-12920 14418 64) (-12916 14418 64) (-12916 14418 152)"
+			"plane" "(-12920 14422 64) (-12916 14422 64) (-12916 14422 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 61.0908] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17529,7 +17399,7 @@ entity
 		side
 		{
 			"id" "20916"
-			"plane" "(-12916 14258 64) (-12920 14258 64) (-12920 14258 152)"
+			"plane" "(-12916 14254 64) (-12920 14254 64) (-12920 14254 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 61.0908] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17590,7 +17460,7 @@ entity
 		side
 		{
 			"id" "20933"
-			"plane" "(-13708 13742 152) (-13708 13902 152) (-13704 13902 152)"
+			"plane" "(-13708 13738 152) (-13708 13906 152) (-13704 13906 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 16] 0.0625"
 			"vaxis" "[-1 0 0 -63.0304] 1.03125"
@@ -17601,7 +17471,7 @@ entity
 		side
 		{
 			"id" "20932"
-			"plane" "(-13708 13902 64) (-13708 13742 64) (-13704 13742 64)"
+			"plane" "(-13708 13906 64) (-13708 13738 64) (-13704 13738 64)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 16] 0.0625"
 			"vaxis" "[-1 0 0 -63.0304] 1.03125"
@@ -17612,7 +17482,7 @@ entity
 		side
 		{
 			"id" "20931"
-			"plane" "(-13704 13902 64) (-13704 13742 64) (-13704 13742 152)"
+			"plane" "(-13704 13906 64) (-13704 13738 64) (-13704 13738 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 16] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17623,7 +17493,7 @@ entity
 		side
 		{
 			"id" "20930"
-			"plane" "(-13708 13742 64) (-13708 13902 64) (-13708 13902 152)"
+			"plane" "(-13708 13738 64) (-13708 13906 64) (-13708 13906 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 16] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17634,7 +17504,7 @@ entity
 		side
 		{
 			"id" "20929"
-			"plane" "(-13708 13902 64) (-13704 13902 64) (-13704 13902 152)"
+			"plane" "(-13708 13906 64) (-13704 13906 64) (-13704 13906 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 -63.0304] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17645,7 +17515,7 @@ entity
 		side
 		{
 			"id" "20928"
-			"plane" "(-13704 13742 64) (-13708 13742 64) (-13708 13742 152)"
+			"plane" "(-13704 13738 64) (-13708 13738 64) (-13708 13738 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 -63.0304] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17706,7 +17576,7 @@ entity
 		side
 		{
 			"id" "20945"
-			"plane" "(-13708 14258 152) (-13708 14418 152) (-13704 14418 152)"
+			"plane" "(-13708 14254 152) (-13708 14422 152) (-13704 14422 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 -48] 0.0625"
 			"vaxis" "[-1 0 0 -63.0304] 1.03125"
@@ -17717,7 +17587,7 @@ entity
 		side
 		{
 			"id" "20944"
-			"plane" "(-13708 14418 64) (-13708 14258 64) (-13704 14258 64)"
+			"plane" "(-13708 14422 64) (-13708 14254 64) (-13704 14254 64)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 -48] 0.0625"
 			"vaxis" "[-1 0 0 -63.0304] 1.03125"
@@ -17728,7 +17598,7 @@ entity
 		side
 		{
 			"id" "20943"
-			"plane" "(-13704 14418 64) (-13704 14258 64) (-13704 14258 152)"
+			"plane" "(-13704 14422 64) (-13704 14254 64) (-13704 14254 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 -48] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17739,7 +17609,7 @@ entity
 		side
 		{
 			"id" "20942"
-			"plane" "(-13708 14258 64) (-13708 14418 64) (-13708 14418 152)"
+			"plane" "(-13708 14254 64) (-13708 14422 64) (-13708 14422 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 -48] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17750,7 +17620,7 @@ entity
 		side
 		{
 			"id" "20941"
-			"plane" "(-13708 14418 64) (-13704 14418 64) (-13704 14418 152)"
+			"plane" "(-13708 14422 64) (-13704 14422 64) (-13704 14422 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 -63.0304] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17761,7 +17631,7 @@ entity
 		side
 		{
 			"id" "20940"
-			"plane" "(-13704 14258 64) (-13708 14258 64) (-13708 14258 152)"
+			"plane" "(-13704 14254 64) (-13708 14254 64) (-13708 14254 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 -63.0304] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17822,7 +17692,7 @@ entity
 		side
 		{
 			"id" "20957"
-			"plane" "(-12920 13742 152) (-12920 13902 152) (-12916 13902 152)"
+			"plane" "(-12920 13738 152) (-12920 13906 152) (-12916 13906 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 16] 0.0625"
 			"vaxis" "[-1 0 0 61.0908] 1.03125"
@@ -17833,7 +17703,7 @@ entity
 		side
 		{
 			"id" "20956"
-			"plane" "(-12920 13902 64) (-12920 13742 64) (-12916 13742 64)"
+			"plane" "(-12920 13906 64) (-12920 13738 64) (-12916 13738 64)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 16] 0.0625"
 			"vaxis" "[-1 0 0 61.0908] 1.03125"
@@ -17844,7 +17714,7 @@ entity
 		side
 		{
 			"id" "20955"
-			"plane" "(-12916 13902 64) (-12916 13742 64) (-12916 13742 152)"
+			"plane" "(-12916 13906 64) (-12916 13738 64) (-12916 13738 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 16] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17855,7 +17725,7 @@ entity
 		side
 		{
 			"id" "20954"
-			"plane" "(-12920 13742 64) (-12920 13902 64) (-12920 13902 152)"
+			"plane" "(-12920 13738 64) (-12920 13906 64) (-12920 13906 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 16] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17866,7 +17736,7 @@ entity
 		side
 		{
 			"id" "20953"
-			"plane" "(-12920 13902 64) (-12916 13902 64) (-12916 13902 152)"
+			"plane" "(-12920 13906 64) (-12916 13906 64) (-12916 13906 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 61.0908] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17877,7 +17747,7 @@ entity
 		side
 		{
 			"id" "20952"
-			"plane" "(-12916 13742 64) (-12920 13742 64) (-12920 13742 152)"
+			"plane" "(-12916 13738 64) (-12920 13738 64) (-12920 13738 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 61.0908] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17921,7 +17791,7 @@ entity
 	"material" "1"
 	"nodamageforces" "1"
 	"notsolid" "0"
-	"origin" "-12974 13822 108"
+	"origin" "-12976 13822 108"
 	"PerformanceMode" "0"
 	"preferredcarryangles" "0 0 0"
 	"pressuredelay" "0"
@@ -17938,7 +17808,7 @@ entity
 		side
 		{
 			"id" "20969"
-			"plane" "(-13028 13820 152) (-13028 13824 152) (-12920 13824 152)"
+			"plane" "(-13032 13820 152) (-13032 13824 152) (-12920 13824 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[-1 0 0 33.9393] 1.03125"
@@ -17949,7 +17819,7 @@ entity
 		side
 		{
 			"id" "20968"
-			"plane" "(-13028 13824 64) (-13028 13820 64) (-12920 13820 64)"
+			"plane" "(-13032 13824 64) (-13032 13820 64) (-12920 13820 64)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[-1 0 0 33.9393] 1.03125"
@@ -17971,7 +17841,7 @@ entity
 		side
 		{
 			"id" "20966"
-			"plane" "(-13028 13820 64) (-13028 13824 64) (-13028 13824 152)"
+			"plane" "(-13032 13820 64) (-13032 13824 64) (-13032 13824 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17982,7 +17852,7 @@ entity
 		side
 		{
 			"id" "20965"
-			"plane" "(-13028 13824 64) (-12920 13824 64) (-12920 13824 152)"
+			"plane" "(-13032 13824 64) (-12920 13824 64) (-12920 13824 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 33.9393] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -17993,7 +17863,7 @@ entity
 		side
 		{
 			"id" "20964"
-			"plane" "(-12920 13820 64) (-13028 13820 64) (-13028 13820 152)"
+			"plane" "(-12920 13820 64) (-13032 13820 64) (-13032 13820 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 33.9393] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18037,7 +17907,7 @@ entity
 	"material" "1"
 	"nodamageforces" "1"
 	"notsolid" "0"
-	"origin" "-12974 14338 108"
+	"origin" "-12976 14338 108"
 	"PerformanceMode" "0"
 	"preferredcarryangles" "0 0 0"
 	"pressuredelay" "0"
@@ -18054,7 +17924,7 @@ entity
 		side
 		{
 			"id" "20981"
-			"plane" "(-13028 14336 152) (-13028 14340 152) (-12920 14340 152)"
+			"plane" "(-13032 14336 152) (-13032 14340 152) (-12920 14340 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[-1 0 0 33.9393] 1.03125"
@@ -18065,7 +17935,7 @@ entity
 		side
 		{
 			"id" "20980"
-			"plane" "(-13028 14340 64) (-13028 14336 64) (-12920 14336 64)"
+			"plane" "(-13032 14340 64) (-13032 14336 64) (-12920 14336 64)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[-1 0 0 33.9393] 1.03125"
@@ -18087,7 +17957,7 @@ entity
 		side
 		{
 			"id" "20978"
-			"plane" "(-13028 14336 64) (-13028 14340 64) (-13028 14340 152)"
+			"plane" "(-13032 14336 64) (-13032 14340 64) (-13032 14340 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18098,7 +17968,7 @@ entity
 		side
 		{
 			"id" "20977"
-			"plane" "(-13028 14340 64) (-12920 14340 64) (-12920 14340 152)"
+			"plane" "(-13032 14340 64) (-12920 14340 64) (-12920 14340 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 33.9393] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18109,7 +17979,7 @@ entity
 		side
 		{
 			"id" "20976"
-			"plane" "(-12920 14336 64) (-13028 14336 64) (-13028 14336 152)"
+			"plane" "(-12920 14336 64) (-13032 14336 64) (-13032 14336 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 33.9393] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18170,7 +18040,7 @@ entity
 		side
 		{
 			"id" "20993"
-			"plane" "(-13196 14336 152) (-13196 14340 152) (-13092 14340 152)"
+			"plane" "(-13200 14336 152) (-13200 14340 152) (-13088 14340 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[-1 0 0 -0.969788] 1.03125"
@@ -18181,7 +18051,7 @@ entity
 		side
 		{
 			"id" "20992"
-			"plane" "(-13196 14340 64) (-13196 14336 64) (-13092 14336 64)"
+			"plane" "(-13200 14340 64) (-13200 14336 64) (-13088 14336 64)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[-1 0 0 -0.969788] 1.03125"
@@ -18192,7 +18062,7 @@ entity
 		side
 		{
 			"id" "20991"
-			"plane" "(-13092 14340 64) (-13092 14336 64) (-13092 14336 152)"
+			"plane" "(-13088 14340 64) (-13088 14336 64) (-13088 14336 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18203,7 +18073,7 @@ entity
 		side
 		{
 			"id" "20990"
-			"plane" "(-13196 14336 64) (-13196 14340 64) (-13196 14340 152)"
+			"plane" "(-13200 14336 64) (-13200 14340 64) (-13200 14340 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18214,7 +18084,7 @@ entity
 		side
 		{
 			"id" "20989"
-			"plane" "(-13196 14340 64) (-13092 14340 64) (-13092 14340 152)"
+			"plane" "(-13200 14340 64) (-13088 14340 64) (-13088 14340 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 -0.969788] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18225,7 +18095,7 @@ entity
 		side
 		{
 			"id" "20988"
-			"plane" "(-13092 14336 64) (-13196 14336 64) (-13196 14336 152)"
+			"plane" "(-13088 14336 64) (-13200 14336 64) (-13200 14336 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 -0.969788] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18286,7 +18156,7 @@ entity
 		side
 		{
 			"id" "21005"
-			"plane" "(-13196 13820 152) (-13196 13824 152) (-13092 13824 152)"
+			"plane" "(-13200 13820 152) (-13200 13824 152) (-13088 13824 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[-1 0 0 -0.969788] 1.03125"
@@ -18297,7 +18167,7 @@ entity
 		side
 		{
 			"id" "21004"
-			"plane" "(-13196 13824 64) (-13196 13820 64) (-13092 13820 64)"
+			"plane" "(-13200 13824 64) (-13200 13820 64) (-13088 13820 64)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[-1 0 0 -0.969788] 1.03125"
@@ -18308,7 +18178,7 @@ entity
 		side
 		{
 			"id" "21003"
-			"plane" "(-13092 13824 64) (-13092 13820 64) (-13092 13820 152)"
+			"plane" "(-13088 13824 64) (-13088 13820 64) (-13088 13820 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18319,7 +18189,7 @@ entity
 		side
 		{
 			"id" "21002"
-			"plane" "(-13196 13820 64) (-13196 13824 64) (-13196 13824 152)"
+			"plane" "(-13200 13820 64) (-13200 13824 64) (-13200 13824 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18330,7 +18200,7 @@ entity
 		side
 		{
 			"id" "21001"
-			"plane" "(-13196 13824 64) (-13092 13824 64) (-13092 13824 152)"
+			"plane" "(-13200 13824 64) (-13088 13824 64) (-13088 13824 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 -0.969788] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18341,7 +18211,7 @@ entity
 		side
 		{
 			"id" "21000"
-			"plane" "(-13092 13820 64) (-13196 13820 64) (-13196 13820 152)"
+			"plane" "(-13088 13820 64) (-13200 13820 64) (-13200 13820 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 -0.969788] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18402,7 +18272,7 @@ entity
 		side
 		{
 			"id" "21017"
-			"plane" "(-13532 13820 152) (-13532 13824 152) (-13428 13824 152)"
+			"plane" "(-13536 13820 152) (-13536 13824 152) (-13424 13824 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[-1 0 0 -6.78796] 1.03125"
@@ -18413,7 +18283,7 @@ entity
 		side
 		{
 			"id" "21016"
-			"plane" "(-13532 13824 64) (-13532 13820 64) (-13428 13820 64)"
+			"plane" "(-13536 13824 64) (-13536 13820 64) (-13424 13820 64)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[-1 0 0 -6.78796] 1.03125"
@@ -18424,7 +18294,7 @@ entity
 		side
 		{
 			"id" "21015"
-			"plane" "(-13428 13824 64) (-13428 13820 64) (-13428 13820 152)"
+			"plane" "(-13424 13824 64) (-13424 13820 64) (-13424 13820 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18435,7 +18305,7 @@ entity
 		side
 		{
 			"id" "21014"
-			"plane" "(-13532 13820 64) (-13532 13824 64) (-13532 13824 152)"
+			"plane" "(-13536 13820 64) (-13536 13824 64) (-13536 13824 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18446,7 +18316,7 @@ entity
 		side
 		{
 			"id" "21013"
-			"plane" "(-13532 13824 64) (-13428 13824 64) (-13428 13824 152)"
+			"plane" "(-13536 13824 64) (-13424 13824 64) (-13424 13824 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 -6.78796] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18457,7 +18327,7 @@ entity
 		side
 		{
 			"id" "21012"
-			"plane" "(-13428 13820 64) (-13532 13820 64) (-13532 13820 152)"
+			"plane" "(-13424 13820 64) (-13536 13820 64) (-13536 13820 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 -6.78796] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18518,7 +18388,7 @@ entity
 		side
 		{
 			"id" "21029"
-			"plane" "(-13700 13820 152) (-13700 13824 152) (-13596 13824 152)"
+			"plane" "(-13704 13820 152) (-13704 13824 152) (-13592 13824 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[-1 0 0 -41.6971] 1.03125"
@@ -18529,7 +18399,7 @@ entity
 		side
 		{
 			"id" "21028"
-			"plane" "(-13700 13824 64) (-13700 13820 64) (-13596 13820 64)"
+			"plane" "(-13704 13824 64) (-13704 13820 64) (-13592 13820 64)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[-1 0 0 -41.6971] 1.03125"
@@ -18540,7 +18410,7 @@ entity
 		side
 		{
 			"id" "21027"
-			"plane" "(-13596 13824 64) (-13596 13820 64) (-13596 13820 152)"
+			"plane" "(-13592 13824 64) (-13592 13820 64) (-13592 13820 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18551,7 +18421,7 @@ entity
 		side
 		{
 			"id" "21026"
-			"plane" "(-13700 13820 64) (-13700 13824 64) (-13700 13824 152)"
+			"plane" "(-13704 13820 64) (-13704 13824 64) (-13704 13824 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18562,7 +18432,7 @@ entity
 		side
 		{
 			"id" "21025"
-			"plane" "(-13700 13824 64) (-13596 13824 64) (-13596 13824 152)"
+			"plane" "(-13704 13824 64) (-13592 13824 64) (-13592 13824 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 -41.6971] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18573,7 +18443,7 @@ entity
 		side
 		{
 			"id" "21024"
-			"plane" "(-13596 13820 64) (-13700 13820 64) (-13700 13820 152)"
+			"plane" "(-13592 13820 64) (-13704 13820 64) (-13704 13820 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 -41.6971] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18634,7 +18504,7 @@ entity
 		side
 		{
 			"id" "21041"
-			"plane" "(-13700 14336 152) (-13700 14340 152) (-13596 14340 152)"
+			"plane" "(-13704 14336 152) (-13704 14340 152) (-13592 14340 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[-1 0 0 -41.6971] 1.03125"
@@ -18645,7 +18515,7 @@ entity
 		side
 		{
 			"id" "21040"
-			"plane" "(-13700 14340 64) (-13700 14336 64) (-13596 14336 64)"
+			"plane" "(-13704 14340 64) (-13704 14336 64) (-13592 14336 64)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[-1 0 0 -41.6971] 1.03125"
@@ -18656,7 +18526,7 @@ entity
 		side
 		{
 			"id" "21039"
-			"plane" "(-13596 14340 64) (-13596 14336 64) (-13596 14336 152)"
+			"plane" "(-13592 14340 64) (-13592 14336 64) (-13592 14336 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18667,7 +18537,7 @@ entity
 		side
 		{
 			"id" "21038"
-			"plane" "(-13700 14336 64) (-13700 14340 64) (-13700 14340 152)"
+			"plane" "(-13704 14336 64) (-13704 14340 64) (-13704 14340 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18678,7 +18548,7 @@ entity
 		side
 		{
 			"id" "21037"
-			"plane" "(-13700 14340 64) (-13596 14340 64) (-13596 14340 152)"
+			"plane" "(-13704 14340 64) (-13592 14340 64) (-13592 14340 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 -41.6971] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18689,7 +18559,7 @@ entity
 		side
 		{
 			"id" "21036"
-			"plane" "(-13596 14336 64) (-13700 14336 64) (-13700 14336 152)"
+			"plane" "(-13592 14336 64) (-13704 14336 64) (-13704 14336 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 -41.6971] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18750,7 +18620,7 @@ entity
 		side
 		{
 			"id" "21053"
-			"plane" "(-13532 14336 152) (-13532 14340 152) (-13428 14340 152)"
+			"plane" "(-13536 14336 152) (-13536 14340 152) (-13424 14340 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[-1 0 0 57.212] 1.03125"
@@ -18761,7 +18631,7 @@ entity
 		side
 		{
 			"id" "21052"
-			"plane" "(-13532 14340 64) (-13532 14336 64) (-13428 14336 64)"
+			"plane" "(-13536 14340 64) (-13536 14336 64) (-13424 14336 64)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[-1 0 0 57.212] 1.03125"
@@ -18772,7 +18642,7 @@ entity
 		side
 		{
 			"id" "21051"
-			"plane" "(-13428 14340 64) (-13428 14336 64) (-13428 14336 152)"
+			"plane" "(-13424 14340 64) (-13424 14336 64) (-13424 14336 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18783,7 +18653,7 @@ entity
 		side
 		{
 			"id" "21050"
-			"plane" "(-13532 14336 64) (-13532 14340 64) (-13532 14340 152)"
+			"plane" "(-13536 14336 64) (-13536 14340 64) (-13536 14340 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[0 1 0 0] 0.0625"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18794,7 +18664,7 @@ entity
 		side
 		{
 			"id" "21049"
-			"plane" "(-13532 14340 64) (-13428 14340 64) (-13428 14340 152)"
+			"plane" "(-13536 14340 64) (-13424 14340 64) (-13424 14340 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 57.212] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -18805,7 +18675,7 @@ entity
 		side
 		{
 			"id" "21048"
-			"plane" "(-13428 14336 64) (-13532 14336 64) (-13532 14336 152)"
+			"plane" "(-13424 14336 64) (-13536 14336 64) (-13536 14336 152)"
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-1 0 0 57.212] 1.03125"
 			"vaxis" "[0 0 -1 42.2264] 1.51563"
@@ -21776,10 +21646,10 @@ entity
 	"_light" "247 232 202 400"
 	"_lightHDR" "-1 -1 -1 -1"
 	"_lightscaleHDR" "1.5"
-	"angles" "-70 270 0"
-	"pitch" "-70"
-	"SunSpreadAngle" "1.5"
-	"origin" "-13312 14128 704"
+	"angles" "-76 270 0"
+	"pitch" "-76"
+	"SunSpreadAngle" "1.2"
+	"origin" "-13312 14120 704"
 	editor
 	{
 		"color" "220 30 220"
@@ -21793,8 +21663,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-13492 14120.7 246.278]"
-		"look" "[-13491 14120.7 246.306]"
+		"position" "[-13347 14150.8 709.552]"
+		"look" "[-13346.3 14150.1 709.297]"
 	}
 }
 cordons
